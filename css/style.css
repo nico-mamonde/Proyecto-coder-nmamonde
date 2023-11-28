@@ -7,7 +7,7 @@
 
 body {
 
-    background-image: url(./assets/Imagenes/fondo.jpg);
+    background-image: url(../assets/Imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: initial;
     background-size: 140%
