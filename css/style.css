@@ -394,3 +394,15 @@ footer nav ul li a img:hover {
 b {
     color: orangered;
 }
+
+.boton {
+    width: 45px;
+    height: 40px;
+    position: fixed;
+    right: 600px;
+    bottom: 15px;
+    font-size: 30px;
+    text-align: right;
+    border: solid 1px black;
+
+background-color: rgb(30, 138, 210);}
