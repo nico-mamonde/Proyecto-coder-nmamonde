@@ -1,0 +1,13 @@
+@import "./utilities/variables";
+
+@import "./base/reset";
+@import "./base/typo";
+
+@import "./layouts/header";
+@import "./layouts/footer";
+
+@import "./views/home";
+@import "./views/nosotros";
+@import "./views/productos";
+@import "./views/servicios";
+@import "./views/contacto";

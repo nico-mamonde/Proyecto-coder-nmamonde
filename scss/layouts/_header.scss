@@ -1,0 +1,47 @@
+
+.navbar-nav{color: #f5f5f5;}
+
+
+.bg-color-coder {background-color: black;
+color: floralwhite!important;}
+
+
+.collapse navbar-collapse
+{color: #f5f5f5;}
+
+.nav-link {color: beige;}
+
+.navbar-toggler{ background-color: #f5f5f5;}
+
+
+.nav {  display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+
+  .nav-item a {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+    transition: 1s;
+    margin: 15px;
+
+  }
+
+.nav-item a:hover {
+    color: red;
+    margin: 5px;
+
+
+&:active { 
+    color: white;
+    text-decoration: overline;
+}
+}
+

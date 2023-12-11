@@ -1,0 +1,219 @@
+.team-title {
+    padding: 50px 50px;
+    color: #eef1f8;
+    background-color: #000000;
+    text-align: center;
+    h1 {
+        display: inline-block;
+        font-size: 3em;
+        border-bottom: #00ab5b solid;
+      }
+      img{width: 60%;}
+    }    
+
+    .conteiner-01{font-size: 15px;
+     }
+
+    .team {
+  
+        font-size: 2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+        text-align: center !important;
+        font-style: italic !important;
+        margin: 1rem !important;
+        text-decoration: underline;
+        color: aliceblue;
+        margin: 30px;
+        animation: text 5s linear infinite;
+        background-color: black;
+        padding: 5px;
+        border-radius: 30px !important;
+        transition: 1s;
+      }
+
+      .team-content {
+        width: 100%;
+        max-width: 1350px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        margin-top: 4rem;
+        .team-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 15px;
+          }
+        }        
+
+
+        .boss-box {
+            padding: 16px;
+            background: #418a68;
+            border-radius: 15px;
+            transition: all 0.38s ease;
+            .boss-box h2 {
+                font-size: 23px;
+                font-weight: 600;
+                color: #fff;
+                margin-bottom: 8px;
+              }
+              .boss-box h3 {
+                font-size: 15px;
+                font-weight: 600;
+                color: #eef1f8;
+                margin-bottom: 15px;
+                letter-spacing: 2px;
+              }}
+
+              .boss-box:hover {
+                transform: translateY(-10px);
+                cursor: pointer;
+              }
+
+
+              .icons i {
+                display: inline-block;
+                color: #eef1f8;
+                font-size: 20px;
+                margin: 0 8px;
+                transition: all 0.38s ease;
+              }
+              .icons i:hover {
+                transform: scale(1.2);
+              }
+              
+
+              @media (max-width: 1240px) {
+                .team {
+                  width: 100%;
+                  height: auto;
+                  padding-left: 5%;
+                  padding-right: 5%;
+                }
+                .center h1 {
+                  font-size: 3.2rem;
+                }
+              }
+              /* Breakpoint contacto*/
+              @media (min-width: 320px) and (max-width: 991.98px) {
+                .row.single-form {
+                  border-top-right-radius: 15px;
+                  border-bottom-left-radius: 15px;
+                }
+              }
+              @media (min-width: 320px) and (max-width: 991.98px) {
+                .left {
+                  border-top-right-radius: 15px;
+                }
+              }
+              @media (min-width: 320px) and (max-width: 991.98px) {
+                .left {
+                  border-bottom-left-radius: 0px;
+                }
+              }
+              @media (max-width: 767px) {
+                .left {
+                  padding: 90px 15px;
+                  text-align: center;
+                }
+                .left h2 {
+                  font-size: 25px;
+                }
+                .right {
+                  padding: 25px;
+                  
+                }
+                .right i {
+                  top: -52px;
+                  transform: rotate(90deg);
+                  left: 46%;
+                }
+                .right button {
+                  width: 150px;
+                  padding: 12px 0;
+                 
+                }
+              }
+              @media (min-width: 768px) and (max-width: 991.98px) {
+                .news-info {
+                  padding-left: 5%;
+                  padding-right: 5%;
+                }
+              }
+              @media (min-width: 576px) and (max-width: 767.98px) {
+                .news-info {
+                  font-size: 1.5em;
+                  padding-top: 10%;
+                  padding-left: 5%;
+                  padding-right: 5%;
+                }
+              }
+              @media (min-width: 320px) and (max-width: 575.98px) {
+                .news-info {
+                  font-size: 1em;
+                  padding-top: 10%;
+                  padding-left: 5%;
+                  padding-right: 5%;
+                }
+              }
+              
+              @media (min-width: 576px) and (max-width: 767.98px) {
+                .news-box {
+                  width: 30rem;
+                }
+              }
+              @media (min-width: 320px) and (max-width: 575.98px) {
+                .news-box {
+                  width: 18rem;
+                }
+              }
+              @media (min-width: 576px) and (max-width: 767.98px) {
+                .news-box input {
+                  width: 19.5rem;
+                }
+              }
+              @media (min-width: 320px) and (max-width: 575.98px) {
+                .news-box input {
+                  width: 10rem;
+                  font-size: 1em;
+                }
+              }
+              @media (min-width: 576px) and (max-width: 767.98px) {
+                .news-box button {
+                  width: 8rem;
+                  font-size: 0.7em;
+                }
+              }
+              @media (min-width: 320px) and (max-width: 575.98px) {
+                .news-box button {
+                  width: 6rem;
+                  font-size: 0.7em;
+                  text-align: center;
+                }
+              }
+
+                
+  @keyframes cambiodecolores {
+    0% {
+        background-color: black;    }
+
+        50% {
+            background-color: orange;    }
+
+            100% {
+                background-color: green;    }
+  }
+
+  .team-title{
+    animation-name: cambiodecolores;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    border-radius: 30px !important;
+    
+  }
