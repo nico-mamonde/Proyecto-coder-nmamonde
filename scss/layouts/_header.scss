@@ -1,17 +1,17 @@
 
-.navbar-nav{color: #f5f5f5;}
+.navbar-nav{color:$color-text;}
 
 
 .bg-color-coder {background-color: black;
-color: floralwhite!important;}
+color: $color-text;}
 
 
 .collapse navbar-collapse
-{color: #f5f5f5;}
+{color: $color-text;}
 
-.nav-link {color: beige;}
+.nav-link {color: $color-text;}
 
-.navbar-toggler{ background-color: #f5f5f5;}
+.navbar-toggler{ background-color: $color-text;}
 
 
 .nav {  display: flex;
@@ -25,8 +25,8 @@ color: floralwhite!important;}
   .nav-item a {
     font-size: 20px;
     text-decoration: none;
-    color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $color-text;
+    font-family: $Georgia;
     font-weight: bold;
     padding: 5px;
     transition: 1s;
@@ -40,7 +40,7 @@ color: floralwhite!important;}
 
 
 &:active { 
-    color: white;
+    color: $color-text;
     text-decoration: overline;
 }
 }

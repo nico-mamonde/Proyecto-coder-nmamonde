@@ -1,8 +1,7 @@
 @import "./utilities/variables";
-
+@import "./utilities/mixin.scss";
 @import "./base/reset";
-@import "./base/typo";
-
+@import "./components/bottons";
 @import "./layouts/header";
 @import "./layouts/footer";
 

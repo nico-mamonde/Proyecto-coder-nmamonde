@@ -1,285 +1,193 @@
+
 .carousel {
-    padding-top: 8rem;
-    @media (max-width: $desktop) {
-        display: none;
-    }
-}
 
-.carousel-movil {
-    padding-top: 8rem;
-
-    @media (min-width: $desktop) {
-        display: none;
-    }
-}
-
-.banner {
-    background-color: black;
-    width: 100%;
-    font-size: 2vw;
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-
-    p {
-        margin: 2rem 4rem 2rem 4rem;
-        font-family: $bebas;
-        text-align: center;
-        -webkit-text-stroke: .06rem $color-secundary;
-        color: transparent;
-        cursor: default;
-        padding: $spacing-small;
-    }
-
-    p:hover {
-        transform: scale(1.03);
-        transition: 1.5s;
-    }
-
-    @media (max-width: $desktop) {
-        display: none;
-    }
-}
-
-.banner-movil {
-    background-color: $color-principal;
-    width: 100%;
-    font-size: 1.6rem;
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-
-    p {
-        margin: 1rem 2rem 1rem 2rem;
-        font-family: $bebas;
-        text-align: center;
-        color: $color-secundary;
-        cursor: default;
-    }
-
-    @media (min-width: $desktop) {
-        display: none;
-    }
-}
-
-.card-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-
-    .card-home {
-        background-color: $color-principal;
-        width: 15rem;
-        padding: $spacing-small;
-        margin: $spacing-large;
-        cursor: pointer;
-
-        &:hover {
-            filter: grayscale(1);
-        }
-    }
-}
-
-.boton {
-    height: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.btn-ver {
-    font-family: $bebas;
-    height: $spacing-large;
-    width: 10rem;
-    font-size: $font-principal;
-    background-color: transparent;
-    color: $color-secundary;
-    border: $color-secundary;
-    border-style: solid;
-    cursor: pointer;
-
-    &.btn-ver:hover {
-        background: $color-secundary;
-        color: $color-principal;
-        border: $color-secundary;
-        border-style: solid;
-        cursor: pointer;
-    }
-}
-
-.carousel-control-prev {
-    display: none; 
-}
-
-.carousel-control-next {
+  @media (max-width: $desktop) {
     display: none;
+  }
 }
 
-
-
-
-
-/* indexxxxxxxxxxxxxxxxx */
 
 .descuentos-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 30px;
+  padding: 10px;
+
+  img {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border-radius: 30px; 
-    padding: 10px; 
-    img{
-        width: 100%;
-        height: 100%;
-        border-radius: 30px;
-        padding: 10px; 
-      }}
+    height: 100%;
+    border-radius: 30px;
+    padding: 10px;
+  }
+}
 
-      .index-title {
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 6%;
-        padding-bottom: 25px;
-        color: #eef1f8;
-        background-color: #000000;
-        text-align: center;
+.index-title {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 6%;
+  padding-bottom: 25px;
+  color:$color-text;
+  background-color: #000000;
+  text-align: center;
 
-        h1 {
-            font-size: 3em;
-          }}
-          
-          .index-info {
-            background-color: #000000;
-            color: #eef1f8;
-            letter-spacing: 0.05em;
-            font-size: 1.5em;
-            padding-top: 10px;
-            padding-right: 10%;
-            padding-left: 10%;
-            padding-bottom: 5%;
-            text-align: center;
-          }
 
-          .seasson {
-            padding: 25px 30px;
-            text-align: center;
-            color: #eef1f8;
-            h2 {
-                font-size: 3em;
-                padding-bottom: 2%;
-              }}
+  h1 {
+    font-size: 3em;
+    color: green;
+font-family: $bebas;
+  }
 
-              .featured-products {
-                padding-bottom: 8%;
-                display: flex;
-                justify-content: center;
 
-                img {
-                    border: 4px #33353a solid;
-                    border-radius: 10%;
-                    margin: 5px;
-                    padding: 10px 10px;
-                    width: 325px;
-                  }}
+}
 
-                  .carousel-inner {
-                    height: 400px;
-                }
-                
-                .carousel-item.active img {
-                    height: 100%;
-                    left: 0;
-                    top: 0;
-                }
-                .carousel-item img {
-                    height: 100%;
-                    left: 0;
-                    top: 0;
-                }
+.index-info {
+  background-color:#000000;
+  color: $color-text;
+  letter-spacing: 0.05em;
+  font-size: $font-size;
+  padding-top: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-family: $bebas;
+}
 
-       
-                
-                .caja-wsp {
-                    position: fixed;
-                    position: absolute;
-                    right: 5px;
-                }
+.seasson {
+  padding: 25px 30px;
+  text-align: center;
+  color: $color-text;
 
-                  
+  h3 {
+    font-size: 30px;
+    font-family: $bebas;
+  }
+  p {
+@extend .index-info;
+
+  }
+}
+
+.featured-products {
+  padding-bottom: 8%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    border: 4px #33353a solid;
+    border-radius: 10%;
+    margin: 5px;
+    padding: 10px 10px;
+    width: 325px;
+  }
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-item.active img {
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.carousel-item img {
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+
+
+.caja-wsp {
+  position: fixed;
+  position: absolute;
+  right: 5px;
+}
+
+
 @media (min-width: 320px) and (max-width: 767.98px) {
-    .header-index {
-      padding: 0;
-      margin: 0;
-      grid-template-columns: repeat(1, 1fr);
-    }
+  .header-index {
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
   }
-  
-  @media (min-width: 500px) and (max-width: 767.98px) {
-    .index-title {
-      font-size: 0.8em;
-    }
-  }
-  @media (min-width: 400px) and (max-width: 499.98px) {
-    .index-title {
-      font-size: 0.6em;
-    }
-  }
-  @media (min-width: 320px) and (max-width: 399.98px) {
-    .index-title {
-      font-size: 0.4em;
-    }
-  }
-  
-  @media (min-width: 400px) and (max-width: 645px) {
-    .index-info {
-      font-size: 1.2em;
-    }
-  }
-  @media (min-width: 320px) and (max-width: 400px) {
-    .index-info {
-      font-size: 1em;
-      text-align: start;
-    }
-  }
-  @media (min-width: 320px) and (max-width: 480px) {
-    .index-info {
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-  }
-  
-  @media (min-width: 320px) and (max-width: 500px) {
-    .seasson h2 {
-      font-size: 1.8em;
-    }
-  }
-  @media (min-width: 1001px) and (max-width: 1200px) {
-    .featured-products img {
-      width: 300px;
-    }
-  }
-  @media (min-width: 767px) and (max-width: 1000px) {
-    .featured-products img {
-      width: 230px;
-    }
-  }
-  @media (min-width: 500px) and (max-width: 767px) {
-    .featured-products img {
-      width: 450px;
-    }
-  }
-  @media (min-width: 320px) and (max-width: 500px) {
-    .featured-products img {
-      width: 300px;
-    }
-  }
-  
-  @media (min-width: 320px) and (max-width: 767px) {
-    .featured-products {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+}
 
+@media (min-width: 500px) and (max-width: 767.98px) {
+  .index-title {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 499.98px) {
+  .index-title {
+    font-size: 0.6em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 399.98px) {
+  .index-title {
+    font-size: 0.4em;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 645px) {
+  .index-info {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .index-info {
+    font-size: 1em;
+    text-align: start;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .index-info {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .seasson h2 {
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .featured-products img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1000px) {
+  .featured-products img {
+    width: 230px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .featured-products img {
+    width: 450px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .featured-products img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .featured-products {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,18 @@
+@mixin nosotros-teams($size, $font, $text, $font-sty, $margin, $textdec, $color, $anima, $pad, $border, $transi) {
+    font-size: $size;
+    font-family: $font;
+    text-align: $text ;
+    font-style: $font-sty ;
+    margin: $margin;
+    text-decoration: $textdec;
+    color: $color;
+
+    animation: $anima;
+    padding: $pad;
+    border-radius: $border;
+    transition: $transi;
+}
+
+.team {
+    @include nosotros-teams(2rem, $Georgia , center, italic, 1rem, underline, aliceblue, text 5s linear infinite, 5px, 30px, 1s);
+}
