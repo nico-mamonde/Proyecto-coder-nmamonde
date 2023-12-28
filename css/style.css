@@ -91,6 +91,7 @@ body {
   color: red;
   margin: 5px;
 }
+
 .nav-item a:hover:active {
   color: white;
   text-decoration: overline;
@@ -109,6 +110,7 @@ footer {
   bottom: 0px;
   min-width: 320px;
 }
+
 footer p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -116,11 +118,13 @@ footer p {
   text-indent: 0px;
   margin-bottom: 8px;
 }
+
 @media (max-width: 1024px) {
   footer {
     display: none;
   }
 }
+
 footer nav ul {
   display: flex;
   align-items: center;
@@ -129,11 +133,13 @@ footer nav ul {
   margin-bottom: 4px;
   padding-left: 0px;
 }
+
 footer nav ul li a img {
   height: 32px;
   margin: 4px;
   transition: 0.5s ease-in-out;
 }
+
 footer nav ul li a img:hover {
   margin: 0px 16px 0px 16px;
   height: 40px;
@@ -153,6 +159,7 @@ footer nav ul li a img:hover {
   border-radius: 30px;
   padding: 10px;
 }
+
 .descuentos-grid img {
   width: 100%;
   height: 100%;
@@ -169,13 +176,15 @@ footer nav ul li a img:hover {
   background-color: #000000;
   text-align: center;
 }
+
 .index-title h1 {
   font-size: 3em;
   color: green;
   font-family: "Bebas Neue", sans-serif;
 }
 
-.index-info, .seasson p {
+.index-info,
+.seasson p {
   background-color: #000000;
   color: white;
   letter-spacing: 0.05em;
@@ -193,15 +202,18 @@ footer nav ul li a img:hover {
   text-align: center;
   color: white;
 }
+
 .seasson h3 {
   font-size: 30px;
   font-family: "Bebas Neue", sans-serif;
 }
+
 .featured-products {
   padding-bottom: 8%;
   display: flex;
   justify-content: center;
 }
+
 .featured-products img {
   border: 4px #33353a solid;
   border-radius: 10%;
@@ -239,63 +251,81 @@ footer nav ul li a img:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 @media (min-width: 500px) and (max-width: 767.98px) {
   .index-title {
     font-size: 0.8em;
   }
 }
+
 @media (min-width: 400px) and (max-width: 499.98px) {
   .index-title {
     font-size: 0.6em;
   }
 }
+
 @media (min-width: 320px) and (max-width: 399.98px) {
   .index-title {
     font-size: 0.4em;
   }
 }
+
 @media (min-width: 400px) and (max-width: 645px) {
-  .index-info, .seasson p {
+
+  .index-info,
+  .seasson p {
     font-size: 1.2em;
   }
 }
+
 @media (min-width: 320px) and (max-width: 400px) {
-  .index-info, .seasson p {
+
+  .index-info,
+  .seasson p {
     font-size: 1em;
     text-align: start;
   }
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
-  .index-info, .seasson p {
+
+  .index-info,
+  .seasson p {
     padding-left: 10%;
     padding-right: 10%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 500px) {
   .seasson h2 {
     font-size: 1.8em;
   }
 }
+
 @media (min-width: 1001px) and (max-width: 1200px) {
   .featured-products img {
     width: 300px;
   }
 }
+
 @media (min-width: 767px) and (max-width: 1000px) {
   .featured-products img {
     width: 230px;
   }
 }
+
 @media (min-width: 500px) and (max-width: 767px) {
   .featured-products img {
     width: 450px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 500px) {
   .featured-products img {
     width: 300px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .featured-products {
     flex-direction: column;
@@ -303,17 +333,20 @@ footer nav ul li a img:hover {
     align-items: center;
   }
 }
+
 .team-title {
   padding: 50px 50px;
   color: #eef1f8;
   background-color: #000000;
   text-align: center;
 }
+
 .team-title h1 {
   display: inline-block;
   font-size: 3em;
   border-bottom: #00ab5b solid;
 }
+
 .team-title img {
   width: 60%;
 }
@@ -333,6 +366,7 @@ footer nav ul li a img:hover {
   text-align: center;
   margin-top: 4rem;
 }
+
 .team-content .team-content img {
   width: 100%;
   height: auto;
@@ -346,12 +380,14 @@ footer nav ul li a img:hover {
   border-radius: 15px;
   transition: all 0.38s ease;
 }
+
 .boss-box .boss-box h2 {
   font-size: 23px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 8px;
 }
+
 .boss-box .boss-box h3 {
   font-size: 15px;
   font-weight: 600;
@@ -372,6 +408,7 @@ footer nav ul li a img:hover {
   margin: 0 8px;
   transition: all 0.38s ease;
 }
+
 .icons i:hover {
   transform: scale(1.2);
 }
@@ -383,10 +420,12 @@ footer nav ul li a img:hover {
     padding-left: 5%;
     padding-right: 5%;
   }
+
   .center h1 {
     font-size: 3.2rem;
   }
 }
+
 /* Breakpoint contacto*/
 @media (min-width: 320px) and (max-width: 991.98px) {
   .row.single-form {
@@ -394,43 +433,52 @@ footer nav ul li a img:hover {
     border-bottom-left-radius: 15px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 991.98px) {
   .left {
     border-top-right-radius: 15px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 991.98px) {
   .left {
     border-bottom-left-radius: 0px;
   }
 }
+
 @media (max-width: 767px) {
   .left {
     padding: 90px 15px;
     text-align: center;
   }
+
   .left h2 {
     font-size: 25px;
   }
+
   .right {
     padding: 25px;
   }
+
   .right i {
     top: -52px;
     transform: rotate(90deg);
     left: 46%;
   }
+
   .right button {
     width: 150px;
     padding: 12px 0;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .news-info {
     padding-left: 5%;
     padding-right: 5%;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-info {
     font-size: 1.5em;
@@ -439,6 +487,7 @@ footer nav ul li a img:hover {
     padding-right: 5%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-info {
     font-size: 1em;
@@ -447,33 +496,39 @@ footer nav ul li a img:hover {
     padding-right: 5%;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-box {
     width: 30rem;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-box {
     width: 18rem;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-box input {
     width: 19.5rem;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-box input {
     width: 10rem;
     font-size: 1em;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-box button {
     width: 8rem;
     font-size: 0.7em;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-box button {
     width: 6rem;
@@ -481,17 +536,21 @@ footer nav ul li a img:hover {
     text-align: center;
   }
 }
+
 @keyframes cambiodecolores {
   0% {
     background-color: black;
   }
+
   50% {
     background-color: orange;
   }
+
   100% {
     background-color: green;
   }
 }
+
 .team-title {
   animation-name: cambiodecolores;
   animation-iteration-count: infinite;
@@ -512,6 +571,7 @@ footer nav ul li a img:hover {
   overflow: hidden;
   padding: 1rem;
 }
+
 .container img {
   width: 100%;
   transition: all 0.5s;
@@ -530,6 +590,7 @@ footer nav ul li a img:hover {
   transition: all 1s;
   cursor: pointer;
 }
+
 .content h3 {
   font-family: "Bebas Neue", sans-serif;
   color: #F4F406;
@@ -537,6 +598,7 @@ footer nav ul li a img:hover {
   font-size: 2rem;
   padding: 60px 0 0 0;
 }
+
 .content p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
@@ -559,6 +621,7 @@ footer nav ul li a img:hover {
   color: #eef1f8;
   text-align: center;
 }
+
 .service-title h1 {
   display: inline-block;
   font-size: 3em;
@@ -583,25 +646,31 @@ footer nav ul li a img:hover {
   border-radius: 20px;
   transition: 1s;
 }
+
 .info-service:hover {
   background-image: linear-gradient(to top, red, orange);
   transform: translateY(0px) scale(100%) rotate(360deg);
 }
+
 .info-service h2 {
   padding-left: 1%;
   font-size: 6em;
 }
+
 .info-service p {
   font-size: 3rem;
 }
+
 .info-service ul li {
   font-size: 1.2em;
   list-style-type: disc;
 }
+
 .info-service ul li::marker {
   font: 1.2em;
   color: #fff024;
 }
+
 .info-service h2 span {
   color: #fff024;
 }
@@ -617,6 +686,7 @@ footer nav ul li a img:hover {
   z-index: 0;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
 }
+
 .service-1 img {
   position: relative;
   width: 93.5%;
@@ -643,6 +713,7 @@ footer nav ul li a img:hover {
     transform: rotate(-360deg);
   }
 }
+
 @media (min-width: 992px) and (max-width: 1372px) {
   .info-service {
     height: 40%;
@@ -651,6 +722,7 @@ footer nav ul li a img:hover {
     padding-right: 0%;
   }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
   .info-service {
     font-size: 13px;
@@ -659,18 +731,21 @@ footer nav ul li a img:hover {
     padding-left: 100px;
   }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
   .info-service {
     padding-left: 0%;
     padding-right: 0%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .info-service {
     padding-left: 3%;
     padding-right: 3%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 350px) {
   .info-service {
     padding-left: 0%;
@@ -678,6 +753,7 @@ footer nav ul li a img:hover {
     padding-bottom: 10%;
   }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
   .info-service h2 {
     text-align: center;
@@ -685,16 +761,19 @@ footer nav ul li a img:hover {
     font-size: 4.5em;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1372px) {
   .info-service h2 {
     font-size: 4em;
   }
 }
+
 @media (min-width: 576px) and (max-width: 802px) {
   .info-service h2 {
     font-size: 3em;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .info-service h2 {
     text-align: center;
@@ -702,16 +781,19 @@ footer nav ul li a img:hover {
     padding-bottom: 5%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 347px) {
   .info-service h2 {
     font-size: 2.3em;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1372px) {
   .info-service p {
     font-size: 1.1em;
   }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
   .info-service p {
     text-align: center;
@@ -720,34 +802,40 @@ footer nav ul li a img:hover {
     margin-left: 30px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .info-service p {
     font-size: 1.6em;
   }
 }
+
 @media (min-width: 320px) and (max-width: 450px) {
   .info-service p {
     font-size: 1.4em;
   }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
   .info-service ul {
     padding-bottom: 10%;
     margin-left: 30px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 450px) {
   .info-service ul {
     padding-bottom: 10%;
     margin-left: 30px;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1372px) {
   .info-service ul li {
     font-size: 1em;
     margin-left: 50px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 450px) {
   .info-service ul li {
     padding-top: 5%;
@@ -755,6 +843,7 @@ footer nav ul li a img:hover {
     margin-left: 50px;
   }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
   .stack-1 {
     justify-content: center;
@@ -764,6 +853,7 @@ footer nav ul li a img:hover {
     padding-bottom: 8%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .stack-1 {
     flex-direction: column;
@@ -771,6 +861,7 @@ footer nav ul li a img:hover {
     padding-bottom: 20%;
   }
 }
+
 @media (min-width: 991px) and (max-width: 1200px) {
   .service-1 {
     margin-right: 0%;
@@ -778,6 +869,7 @@ footer nav ul li a img:hover {
     width: 20rem;
   }
 }
+
 @media (min-width: 576px) and (max-width: 768px) {
   .service-1 {
     margin-right: 0%;
@@ -786,6 +878,7 @@ footer nav ul li a img:hover {
     margin-top: 100px;
   }
 }
+
 @media (min-width: 450px) and (max-width: 575.98px) {
   .service-1 {
     margin-right: 0%;
@@ -793,6 +886,7 @@ footer nav ul li a img:hover {
     width: 20rem;
   }
 }
+
 @media (min-width: 320px) and (max-width: 449.98px) {
   .service-1 {
     margin-right: 0%;
@@ -800,6 +894,7 @@ footer nav ul li a img:hover {
     width: 20rem;
   }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
   .service-1 {
     margin-right: 0%;
@@ -807,12 +902,14 @@ footer nav ul li a img:hover {
     width: 15rem;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1372px) {
   .service-1::before {
     left: -40%;
     top: -50%;
   }
 }
+
 .contact-page__map {
   border-top: rgba(109, 107, 108, 0.8078431373) solid 1px;
   display: flex;
@@ -831,6 +928,7 @@ footer nav ul li a img:hover {
     height: 600px;
   }
 }
+
 .contact-image {
   text-align: center;
 }
@@ -897,43 +995,52 @@ footer nav ul li a img:hover {
     border-bottom-left-radius: 15px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 991.98px) {
   .left {
     border-top-right-radius: 15px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 991.98px) {
   .left {
     border-bottom-left-radius: 0px;
   }
 }
+
 @media (max-width: 767px) {
   .left {
     padding: 90px 15px;
     text-align: center;
   }
+
   .left h2 {
     font-size: 25px;
   }
+
   .right {
     padding: 25px;
   }
+
   .right i {
     top: -52px;
     transform: rotate(90deg);
     left: 46%;
   }
+
   .right button {
     width: 150px;
     padding: 12px 0;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .news-info {
     padding-left: 5%;
     padding-right: 5%;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-info {
     font-size: 1.5em;
@@ -942,6 +1049,7 @@ footer nav ul li a img:hover {
     padding-right: 5%;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-info {
     font-size: 1em;
@@ -950,33 +1058,39 @@ footer nav ul li a img:hover {
     padding-right: 5%;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-box {
     width: 30rem;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-box {
     width: 18rem;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-box input {
     width: 19.5rem;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-box input {
     width: 10rem;
     font-size: 1em;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .news-box button {
     width: 8rem;
     font-size: 0.7em;
   }
 }
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .news-box button {
     width: 6rem;

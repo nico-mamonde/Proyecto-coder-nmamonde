@@ -76,9 +76,10 @@
   margin: 0 8px;
   transition: all 0.38s ease;
 
-&:hover {
-  transform: scale(1.2);
-}}
+  &:hover {
+    transform: scale(1.2);
+  }
+}
 
 
 @media (max-width: 1240px) {
